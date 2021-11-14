@@ -1,49 +1,34 @@
-MATLAB Compiler
+# Digital_Image_Processing
 
-1. Prerequisites for Deployment 
+Basic Image Processing Software
 
-. Verify the MATLAB Runtime is installed and ensure you    
-  have installed version 9.2 (R2017a).   
+This software has been developed to learn the basics of image processing.
 
-. If the MATLAB Runtime is not installed, do the following:
-  (1) enter
+![Screenshot](Capture.PNG)
+
+# License
+
+ Copyright @2017. K. N. Toosi University of Technology. All Rights Reserved. Permission to use, copy, modify, and distribute this software and its documentation for educational,  research, and not-for-profit purposes, without fee and without a signed licensing agreement, is hereby granted, provided that the above copyright notice, this paragraph and the following two paragraphs appear in all copies, modifications, and distributions.
+THE SOFTWARE AND ACCOMPANYING DOCUMENTATION, IF ANY, PROVIDED HEREUNDER IS PROVIDED "AS IS". REGENTS HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+This software, the “DIP educational module”, was first published in December 2017, semester 3961 of K. N. Toosi University of Technology. The software was first designed and produced as an exercise in the Digital Image Processing course under supervision of Dr. Yasser Maghsoudi and the Teacher Assistant, Seyed Ali Ahmadi. The core software was programmed by students Mr. Arash Azimi Fard & Mr. HamidReza Es'haghi. Other versions maybe released in the future through the experiences of Digital Image Processing course of the Remote Sensing Laboratory. 
+For further information please contact: 
+
+Dr. Yasser Maghsoudi : ymaghsoudi@kntu.ac.ir
+
+  S. Ali Ahmadi ‌: cpt.ahmadisnipiol@yahoo.com
   
-      >>mcrinstaller
-      
-      at MATLAB prompt. The MCRINSTALLER command displays the 
-      location of the MATLAB Runtime installer.
+  HamidReza Eshaqi : hamideshaghi75@gmail.com
 
-  (2) run the MATLAB Runtime installer.
-
-Or download the Windows 64-bit version of the MATLAB Runtime for R2017a 
-from the MathWorks Web site by navigating to
-
-   http://www.mathworks.com/products/compiler/mcr/index.html
-   
-   
-For more information about the MATLAB Runtime and the MATLAB Runtime installer, see 
-Package and Distribute in the MATLAB Compiler documentation  
-in the MathWorks Documentation Center.    
+  Arash Azimi Fard : arashazimi0032@gmail.com
 
 
-NOTE: You will need administrator rights to run MCRInstaller. 
+# Prerequisites
+At least MATLAB 2017
 
+# Usage
 
-2. Files to Deploy and Package
+In order to use this software, it is enough to run D_I_P.m file
 
-Files to package for Standalone 
-================================
--D_I_P.exe
--MCRInstaller.exe 
-   -if end users are unable to download the MATLAB Runtime using the above  
-    link, include it when building your component by clicking 
-    the "Runtime downloaded from web" link in the Deployment Tool
--This readme file 
+# DataSet
 
-3. Definitions
-
-For information on deployment terminology, go to 
-http://www.mathworks.com/help. Select MATLAB Compiler >   
-Getting Started > About Application Deployment > 
-Deployment Product Terms in the MathWorks Documentation 
-Center.
+you can use the basic images of http://www.imageprocessingplace.com/DIP-3E/dip3e_book_images_downloads.htm for learning about image processing basics.
