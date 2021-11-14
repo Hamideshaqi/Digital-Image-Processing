@@ -4,7 +4,8 @@ Basic Image Processing Software
 
 This software has been developed to learn the basics of image processing.
 
-![Screenshot](Capture.PNG)             ![Screenshot](2021-11-14_215209.PNG)
+![Screenshot](Capture.PNG)
+![Screenshot](2021-11-14_215209.PNG)
 
 # License
 
